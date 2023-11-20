@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Icons</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="logo">
+        <a href="https://www.facebook.com" target="_blank">
+            <img
+                src="img/facebook-gray.png"
+                alt="facebook"
+                id="img-1"
+                onmouseover="mouseIn(1)"
+                onmouseout="mouseOut(1)"
+                onclick="navigateTo('https://www.facebook.com')"
+            
+            />
+        </a>
+    </div>
+    <script src="js/main.js"></script>
+    <script>
+        function navigateTo(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
